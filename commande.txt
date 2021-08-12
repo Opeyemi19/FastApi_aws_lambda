@@ -4,8 +4,8 @@ pip install fastapi
 uvicorn api.main:app --reload
 pip install pytest
 pip install requests
-pip freeze > requirements.txt
 pip install mangum  # Mangum est un adaptateur permettant d'utiliser des applications ASGI avec AWS Lambda & API Gateway. Il est destiné à fournir un wrapper configurable et facile à utiliser pour toute application ASGI déployée dans une fonction AWS Lambda afin de gérer les demandes et les réponses d'API Gateway.
+pip freeze > requirements.txt
 
 AWS S3 Compartiment : myfastapi
 AWS Lambda : fastapi
